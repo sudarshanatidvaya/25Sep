@@ -3136,7 +3136,7 @@ namespace Auradies
 			public const int common_signin_btn_text_pressed_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_add_24dp = 2130837594;
+			public const int galleryIcon = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
 			public const int ic_cast_dark = 2130837595;
@@ -3187,106 +3187,85 @@ namespace Auradies
 			public const int ic_media_route_on_mono_dark = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_messenger_24dp = 2130837611;
+			public const int ic_pause_dark = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_mood_24dp = 2130837612;
+			public const int ic_pause_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_pause_dark = 2130837613;
+			public const int ic_play_dark = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_pause_light = 2130837614;
+			public const int ic_play_light = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_play_dark = 2130837615;
+			public const int ic_plusone_medium_off_client = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_play_light = 2130837616;
+			public const int ic_plusone_small_off_client = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_plusone_medium_off_client = 2130837617;
+			public const int ic_plusone_standard_off_client = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_plusone_small_off_client = 2130837618;
+			public const int ic_plusone_tall_off_client = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_plusone_standard_off_client = 2130837619;
+			public const int ic_ripple_blue = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_plusone_tall_off_client = 2130837620;
+			public const int ic_setting_dark = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_ripple = 2130837621;
+			public const int ic_setting_light = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_ripple_blue = 2130837622;
+			public const int Icon = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_ripple_blue_circle = 2130837623;
+			public const int mr_ic_audio_vol = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_ripple_trans = 2130837624;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_send_14dp = 2130837625;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_send_24dp = 2130837626;
+			public const int mr_ic_media_route_mono_dark = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_setting_dark = 2130837627;
+			public const int mr_ic_media_route_mono_light = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_setting_light = 2130837628;
+			public const int mr_ic_pause_dark = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int Icon = 2130837629;
+			public const int mr_ic_pause_light = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int mr_ic_audio_vol = 2130837630;
+			public const int mr_ic_play_dark = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837631;
+			public const int mr_ic_play_light = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int mr_ic_media_route_connecting_mono_light = 2130837632;
+			public const int mr_ic_settings_dark = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int mr_ic_media_route_mono_dark = 2130837633;
+			public const int mr_ic_settings_light = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int mr_ic_media_route_mono_light = 2130837634;
-			
-			// aapt resource value: 0x7f020083
-			public const int mr_ic_pause_dark = 2130837635;
-			
-			// aapt resource value: 0x7f020084
-			public const int mr_ic_pause_light = 2130837636;
+			public const int newsIcon = 2130837634;
 			
 			// aapt resource value: 0x7f020085
-			public const int mr_ic_play_dark = 2130837637;
+			public const int notification_template_icon_bg = 2130837637;
 			
-			// aapt resource value: 0x7f020086
-			public const int mr_ic_play_light = 2130837638;
+			// aapt resource value: 0x7f020083
+			public const int powered_by_google_dark = 2130837635;
 			
-			// aapt resource value: 0x7f020087
-			public const int mr_ic_settings_dark = 2130837639;
-			
-			// aapt resource value: 0x7f020088
-			public const int mr_ic_settings_light = 2130837640;
-			
-			// aapt resource value: 0x7f02008c
-			public const int notification_template_icon_bg = 2130837644;
-			
-			// aapt resource value: 0x7f020089
-			public const int powered_by_google_dark = 2130837641;
-			
-			// aapt resource value: 0x7f02008a
-			public const int powered_by_google_light = 2130837642;
-			
-			// aapt resource value: 0x7f02008b
-			public const int ripple_blue_circle = 2130837643;
+			// aapt resource value: 0x7f020084
+			public const int powered_by_google_light = 2130837636;
 			
 			static Drawable()
 			{
@@ -3301,8 +3280,8 @@ namespace Auradies
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f09007b
-			public const int action0 = 2131296379;
+			// aapt resource value: 0x7f09007c
+			public const int action0 = 2131296380;
 			
 			// aapt resource value: 0x7f090057
 			public const int action_bar = 2131296343;
@@ -3328,8 +3307,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090058
 			public const int action_context_bar = 2131296344;
 			
-			// aapt resource value: 0x7f09007f
-			public const int action_divider = 2131296383;
+			// aapt resource value: 0x7f090080
+			public const int action_divider = 2131296384;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3361,8 +3340,8 @@ namespace Auradies
 			// aapt resource value: 0x7f09002e
 			public const int always = 2131296302;
 			
-			// aapt resource value: 0x7f090072
-			public const int art = 2131296370;
+			// aapt resource value: 0x7f090073
+			public const int art = 2131296371;
 			
 			// aapt resource value: 0x7f09002b
 			public const int beginning = 2131296299;
@@ -3373,8 +3352,8 @@ namespace Auradies
 			// aapt resource value: 0x7f09004d
 			public const int buttonPanel = 2131296333;
 			
-			// aapt resource value: 0x7f090078
-			public const int buttons = 2131296376;
+			// aapt resource value: 0x7f090079
+			public const int buttons = 2131296377;
 			
 			// aapt resource value: 0x7f090010
 			public const int buyButton = 2131296272;
@@ -3385,8 +3364,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090016
 			public const int buy_with_google = 2131296278;
 			
-			// aapt resource value: 0x7f09007c
-			public const int cancel_action = 2131296380;
+			// aapt resource value: 0x7f09007d
+			public const int cancel_action = 2131296381;
 			
 			// aapt resource value: 0x7f090000
 			public const int cast_notification_id = 2131296256;
@@ -3394,8 +3373,8 @@ namespace Auradies
 			// aapt resource value: 0x7f09004f
 			public const int checkbox = 2131296335;
 			
-			// aapt resource value: 0x7f090082
-			public const int chronometer = 2131296386;
+			// aapt resource value: 0x7f090083
+			public const int chronometer = 2131296387;
 			
 			// aapt resource value: 0x7f090018
 			public const int classic = 2131296280;
@@ -3418,8 +3397,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090040
 			public const int default_activity_button = 2131296320;
 			
-			// aapt resource value: 0x7f090071
-			public const int default_control_frame = 2131296369;
+			// aapt resource value: 0x7f090072
+			public const int default_control_frame = 2131296370;
 			
 			// aapt resource value: 0x7f090033
 			public const int dialog = 2131296307;
@@ -3427,8 +3406,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090025
 			public const int disableHome = 2131296293;
 			
-			// aapt resource value: 0x7f090079
-			public const int disconnect = 2131296377;
+			// aapt resource value: 0x7f09007a
+			public const int disconnect = 2131296378;
 			
 			// aapt resource value: 0x7f090017
 			public const int donate_with_google = 2131296279;
@@ -3442,8 +3421,8 @@ namespace Auradies
 			// aapt resource value: 0x7f09002c
 			public const int end = 2131296300;
 			
-			// aapt resource value: 0x7f090087
-			public const int end_padder = 2131296391;
+			// aapt resource value: 0x7f090088
+			public const int end_padder = 2131296392;
 			
 			// aapt resource value: 0x7f09003e
 			public const int expand_activities_button = 2131296318;
@@ -3478,14 +3457,17 @@ namespace Auradies
 			// aapt resource value: 0x7f09003f
 			public const int image = 2131296319;
 			
-			// aapt resource value: 0x7f090086
-			public const int info = 2131296390;
+			// aapt resource value: 0x7f090068
+			public const int imageButton1 = 2131296360;
 			
-			// aapt resource value: 0x7f090080
-			public const int line1 = 2131296384;
+			// aapt resource value: 0x7f090087
+			public const int info = 2131296391;
 			
-			// aapt resource value: 0x7f090084
-			public const int line3 = 2131296388;
+			// aapt resource value: 0x7f090081
+			public const int line1 = 2131296385;
+			
+			// aapt resource value: 0x7f090085
+			public const int line3 = 2131296389;
 			
 			// aapt resource value: 0x7f090023
 			public const int listMode = 2131296291;
@@ -3496,20 +3478,20 @@ namespace Auradies
 			// aapt resource value: 0x7f090012
 			public const int match_parent = 2131296274;
 			
-			// aapt resource value: 0x7f09007e
-			public const int media_actions = 2131296382;
+			// aapt resource value: 0x7f09007f
+			public const int media_actions = 2131296383;
 			
-			// aapt resource value: 0x7f090070
-			public const int media_route_control_frame = 2131296368;
+			// aapt resource value: 0x7f090071
+			public const int media_route_control_frame = 2131296369;
 			
-			// aapt resource value: 0x7f09006c
-			public const int media_route_list = 2131296364;
-			
-			// aapt resource value: 0x7f090076
-			public const int media_route_volume_layout = 2131296374;
+			// aapt resource value: 0x7f09006d
+			public const int media_route_list = 2131296365;
 			
 			// aapt resource value: 0x7f090077
-			public const int media_route_volume_slider = 2131296375;
+			public const int media_route_volume_layout = 2131296375;
+			
+			// aapt resource value: 0x7f090078
+			public const int media_route_volume_slider = 2131296376;
 			
 			// aapt resource value: 0x7f09002d
 			public const int middle = 2131296301;
@@ -3532,8 +3514,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090044
 			public const int parentPanel = 2131296324;
 			
-			// aapt resource value: 0x7f090073
-			public const int play_pause = 2131296371;
+			// aapt resource value: 0x7f090074
+			public const int play_pause = 2131296372;
 			
 			// aapt resource value: 0x7f09000c
 			public const int production = 2131296268;
@@ -3547,8 +3529,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090051
 			public const int radio = 2131296337;
 			
-			// aapt resource value: 0x7f09006e
-			public const int route_name = 2131296366;
+			// aapt resource value: 0x7f09006f
+			public const int route_name = 2131296367;
 			
 			// aapt resource value: 0x7f09000d
 			public const int sandbox = 2131296269;
@@ -3598,8 +3580,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090011
 			public const int selectionDetails = 2131296273;
 			
-			// aapt resource value: 0x7f09006f
-			public const int settings = 2131296367;
+			// aapt resource value: 0x7f090070
+			public const int settings = 2131296368;
 			
 			// aapt resource value: 0x7f090050
 			public const int shortcut = 2131296336;
@@ -3613,8 +3595,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090029
 			public const int showTitle = 2131296297;
 			
-			// aapt resource value: 0x7f09006a
-			public const int sign_in_button = 2131296362;
+			// aapt resource value: 0x7f09006b
+			public const int sign_in_button = 2131296363;
 			
 			// aapt resource value: 0x7f09001c
 			public const int slide = 2131296284;
@@ -3631,11 +3613,11 @@ namespace Auradies
 			// aapt resource value: 0x7f090039
 			public const int src_over = 2131296313;
 			
-			// aapt resource value: 0x7f09007d
-			public const int status_bar_latest_event_content = 2131296381;
+			// aapt resource value: 0x7f09007e
+			public const int status_bar_latest_event_content = 2131296382;
 			
-			// aapt resource value: 0x7f09007a
-			public const int stop = 2131296378;
+			// aapt resource value: 0x7f09007b
+			public const int stop = 2131296379;
 			
 			// aapt resource value: 0x7f09000e
 			public const int strict_sandbox = 2131296270;
@@ -3643,8 +3625,8 @@ namespace Auradies
 			// aapt resource value: 0x7f090062
 			public const int submit_area = 2131296354;
 			
-			// aapt resource value: 0x7f090075
-			public const int subtitle = 2131296373;
+			// aapt resource value: 0x7f090076
+			public const int subtitle = 2131296374;
 			
 			// aapt resource value: 0x7f090024
 			public const int tabMode = 2131296292;
@@ -3655,38 +3637,38 @@ namespace Auradies
 			// aapt resource value: 0x7f09000f
 			public const int test = 2131296271;
 			
-			// aapt resource value: 0x7f090085
-			public const int text = 2131296389;
+			// aapt resource value: 0x7f090086
+			public const int text = 2131296390;
 			
-			// aapt resource value: 0x7f090083
-			public const int text2 = 2131296387;
+			// aapt resource value: 0x7f090084
+			public const int text2 = 2131296388;
+			
+			// aapt resource value: 0x7f09006a
+			public const int textAppName = 2131296362;
 			
 			// aapt resource value: 0x7f090069
-			public const int textAppName = 2131296361;
-			
-			// aapt resource value: 0x7f090068
-			public const int textLogoA = 2131296360;
+			public const int textLogoA = 2131296361;
 			
 			// aapt resource value: 0x7f09004a
 			public const int textSpacerNoButtons = 2131296330;
 			
-			// aapt resource value: 0x7f09006b
-			public const int textUserDetails = 2131296363;
+			// aapt resource value: 0x7f09006c
+			public const int textUserDetails = 2131296364;
 			
 			// aapt resource value: 0x7f090067
 			public const int textWelcomeUser = 2131296359;
 			
-			// aapt resource value: 0x7f090074
-			public const int text_wrapper = 2131296372;
+			// aapt resource value: 0x7f090075
+			public const int text_wrapper = 2131296373;
 			
-			// aapt resource value: 0x7f090081
-			public const int time = 2131296385;
+			// aapt resource value: 0x7f090082
+			public const int time = 2131296386;
 			
 			// aapt resource value: 0x7f090043
 			public const int title = 2131296323;
 			
-			// aapt resource value: 0x7f09006d
-			public const int title_bar = 2131296365;
+			// aapt resource value: 0x7f09006e
+			public const int title_bar = 2131296366;
 			
 			// aapt resource value: 0x7f090046
 			public const int title_template = 2131296326;

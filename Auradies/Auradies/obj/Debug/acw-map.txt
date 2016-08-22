@@ -1,3 +1,7 @@
+Auradies.GridImageAdapter, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.GridImageAdapter
+Auradies.GridImageAdapter, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.GridImageAdapter
+Auradies.GridImageAdapter;md55ad0aab94bf4a6c5bb1151001c94d7ad.GridImageAdapter
+auradies.GridImageAdapter;md55ad0aab94bf4a6c5bb1151001c94d7ad.GridImageAdapter
 Auradies.HomeActivity, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.HomeActivity
 Auradies.HomeActivity, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.HomeActivity
 Auradies.HomeActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.HomeActivity

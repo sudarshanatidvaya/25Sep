@@ -42,6 +42,13 @@ namespace Auradies
 
             textWelcomeUser.Text = String.Format("Hi {0}, Welcome to the world of Auradies!", name);
 
+            //var gridview = FindViewById<GridView>(Resource.Id.gridview);
+            //gridview.Adapter = new GridImageAdapter(this);
+
+            //gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
+            //    Toast.MakeText(this, args.Position.ToString(), ToastLength.Short).Show();
+        //};
+
         }
 
         public override void OnBackPressed()
