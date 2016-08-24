@@ -10,10 +10,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Square.Picasso;
+using Android.Content.PM;
 
 namespace Auradies
 {
-    [Activity(Label = "HomeActivity")]
+    [Activity(Label = "HomeActivity", ScreenOrientation = ScreenOrientation.Portrait)]
     public class HomeActivity : Activity
     {
         private ImageView _profilePic;
@@ -21,34 +22,40 @@ namespace Auradies
         bool doubleBackToExitPressedOnce = false;
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
+            try
+            {
+                base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.HomeLayout);
-
-
-            // Create your application here
-
-            _profilePic = FindViewById<ImageView>(Resource.Id.userImage);
-            textWelcomeUser = FindViewById<TextView>(Resource.Id.textWelcomeUser);
-
-            //loggedOnUser = JsonConvert.DeserializeObject<Profile>("UserProfile");
-
-            string imageUrl = Intent.GetStringExtra("ProfilePicID");
-            string name = Intent.GetStringExtra("UserName");
+                SetContentView(Resource.Layout.HomeLayout);
 
 
-            Picasso.With(this).Load(imageUrl).Into(_profilePic);
+                // Create your application here
+
+                _profilePic = FindViewById<ImageView>(Resource.Id.userImage);
+                textWelcomeUser = FindViewById<TextView>(Resource.Id.textWelcomeUser);
+
+                //loggedOnUser = JsonConvert.DeserializeObject<Profile>("UserProfile");
+
+                string imageUrl = Intent.GetStringExtra("ProfilePicID");
+                string name = Intent.GetStringExtra("UserName");
 
 
-            textWelcomeUser.Text = String.Format("Hi {0}, Welcome to the world of Auradies!", name);
+                Picasso.With(this).Load(imageUrl).Into(_profilePic);
 
-            //var gridview = FindViewById<GridView>(Resource.Id.gridview);
-            //gridview.Adapter = new GridImageAdapter(this);
 
-            //gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
-            //    Toast.MakeText(this, args.Position.ToString(), ToastLength.Short).Show();
-        //};
+                textWelcomeUser.Text = String.Format("Hi {0}, Welcome to the world of Auradies!", name);
 
+                //var gridview = FindViewById<GridView>(Resource.Id.gridview);
+                //gridview.Adapter = new GridImageAdapter(this);
+
+                //gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
+                //    Toast.MakeText(this, args.Position.ToString(), ToastLength.Short).Show();
+                //};
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         public override void OnBackPressed()

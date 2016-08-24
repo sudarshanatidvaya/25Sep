@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_ripple_blue">
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <GridLayout
-            android:layout_row="0"
-            android:layout_column="0"
-            android:layout_width="wrap_content"
+    android:background="@drawable/ic_ripple_blue"
+        android:orientation="vertical">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="120dp">
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:layout_width="100dp"
+                android:layout_width="50dp"
                 android:layout_height="100dp"
                 android:layout_gravity="left"
                 android:layout_marginLeft="10dp"
@@ -25,34 +22,31 @@
                 android:id="@+id/textWelcomeUser"
                 android:textColor="#E9AB17"
                 android:textSize="20dp"
-                android:layout_row="0"
-                android:layout_column="1"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="10dp"
+                android:layout_height="100dp"
+                android:layout_width="wrap_content"
                 android:paddingTop="40dp" />
-        </GridLayout>
-        <GridLayout
-            android:layout_row="1"
-            android:layout_column="0"
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="5dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <ImageButton
                 android:src="@drawable/newsIcon"
                 android:id="@+id/imageButton1"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"/>
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" 
+    android:layout_width="match_parent"
+    android:layout_height="150dp"/>
             <ImageButton
                 android:src="@drawable/galleryIcon"
-                android:id="@+id/imageButton1"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"/>
-        </GridLayout>
-    </GridLayout>
-</ScrollView>
+                android:id="@+id/imageButton2"
+                android:layout_gravity="right"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+    android:layout_width="match_parent"
+    android:layout_height="150dp" />
+        </LinearLayout>
+</LinearLayout>
