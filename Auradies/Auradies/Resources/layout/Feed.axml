@@ -62,3 +62,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearlayoutImage" />
 </LinearLayout>
+
+<!--http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/
+
+http://www.androidhive.info/2014/06/android-facebook-like-custom-listview-feed-using-volley/-->
