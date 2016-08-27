@@ -1,5 +1,6 @@
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\Auradies.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\GooglePlayServicesLib.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\Newtonsoft.Json.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\Square.OkHttp.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\Square.OkIO.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\Square.Picasso.dll
@@ -33,6 +34,8 @@ E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Core.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Xml.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Xml.Linq.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.Serialization.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Threading.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.ComponentModel.Composition.dll
@@ -44,6 +47,4 @@ E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Linq.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.Extensions.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Reflection.Extensions.dll
-E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.Serialization.dll
-E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Net.Http.dll

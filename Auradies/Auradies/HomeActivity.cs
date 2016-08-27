@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Square.Picasso;
 using Android.Content.PM;
+using Newtonsoft.Json;
 
 namespace Auradies
 {
@@ -19,6 +20,12 @@ namespace Auradies
     {
         private ImageView _profilePic;
         private TextView textWelcomeUser;
+        private ImageButton _btnNews;
+        private ImageButton _btnGallery;
+        private ImageButton _btnEvents;
+        private ImageButton _btnContacts;
+        private UserProfile _loggedInUser;
+        
         bool doubleBackToExitPressedOnce = false;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -33,11 +40,19 @@ namespace Auradies
 
                 _profilePic = FindViewById<ImageView>(Resource.Id.userImage);
                 textWelcomeUser = FindViewById<TextView>(Resource.Id.textWelcomeUser);
+                _btnNews = FindViewById<ImageButton>(Resource.Id.btnNews);
+                _btnGallery = FindViewById<ImageButton>(Resource.Id.btnGallery);
+                _btnEvents = FindViewById<ImageButton>(Resource.Id.btnEvents);
+                _btnContacts = FindViewById<ImageButton>(Resource.Id.btnContacts);
+                _loggedInUser = new UserProfile();
 
-                //loggedOnUser = JsonConvert.DeserializeObject<Profile>("UserProfile");
+                _loggedInUser = JsonConvert.DeserializeObject<UserProfile>(Intent.GetStringExtra("loggedInUser"));
 
-                string imageUrl = Intent.GetStringExtra("ProfilePicID");
-                string name = Intent.GetStringExtra("UserName");
+                //string imageUrl = Intent.GetStringExtra("ProfilePicID");
+                //string name = Intent.GetStringExtra("UserName");
+
+                string imageUrl = _loggedInUser.ProfilePicID;
+                string name = _loggedInUser.UserName;
 
 
                 Picasso.With(this).Load(imageUrl).Into(_profilePic);

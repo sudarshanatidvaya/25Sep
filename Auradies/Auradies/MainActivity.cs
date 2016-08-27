@@ -12,6 +12,7 @@ using Android.Gms.Plus;
 using Android.Gms.Plus.Model.People;
 using Android.Graphics;
 using Android.Animation;
+using Newtonsoft.Json;
 
 namespace Auradies
 {
@@ -164,6 +165,7 @@ namespace Auradies
             }
         }
 
+        //Google plus login
         public void OnConnected(Bundle connectionHint)
         {
             //Successful log in hooray!!
@@ -201,10 +203,16 @@ namespace Auradies
                 }
 
 
+                UserProfile loggedInUser = new UserProfile(userName, userImageUrl);
+
+
+
                 Intent intent = new Intent(this, typeof(HomeActivity));
 
-                intent.PutExtra("UserName", userName);
-                intent.PutExtra("ProfilePicID", userImageUrl);
+                intent.PutExtra("loggedInUser", JsonConvert.SerializeObject(loggedInUser));
+
+                //intent.PutExtra("UserName", userName);
+                //intent.PutExtra("ProfilePicID", userImageUrl);
                 this.StartActivity(intent);
                 this.OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
 

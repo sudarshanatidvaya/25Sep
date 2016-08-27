@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Auradies.dll" comes first in this list. */
 		"Auradies.dll",
 		"GooglePlayServicesLib.dll",
+		"Newtonsoft.Json.dll",
 		"Square.OkHttp.dll",
 		"Square.OkIO.dll",
 		"Square.Picasso.dll",
@@ -127,6 +128,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Wallet.dll",
 		"Xamarin.GooglePlayServices.Wearable.dll",
 		"Java.Interop.dll",
+		"System.ServiceModel.Internals.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",
@@ -137,7 +139,6 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
-		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

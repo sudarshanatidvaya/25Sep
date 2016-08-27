@@ -112,8 +112,11 @@ E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\drawable\galleryicon.png
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\drawable\newsicon.png
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\R.cs.flag
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\uploadflags.txt
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\drawable\contactsicon.png
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\drawable\eventsicon.jpg
+E:\Code\25Sep\Auradies\Auradies\bin\Debug\Newtonsoft.Json.dll
+E:\Code\25Sep\Auradies\Auradies\bin\Debug\Newtonsoft.Json.xml
 E:\Code\25Sep\Auradies\Auradies\bin\Debug\Auradies.dll.mdb
-E:\Code\25Sep\Auradies\Auradies\obj\Debug\Auradies.csprojResolveAssemblyReference.cache
 E:\Code\25Sep\Auradies\Auradies\bin\Debug\Java.Interop.dll.mdb
 E:\Code\25Sep\Auradies\Auradies\bin\Debug\Mono.Android.dll.mdb
 E:\Code\25Sep\Auradies\Auradies\bin\Debug\mscorlib.dll.mdb
