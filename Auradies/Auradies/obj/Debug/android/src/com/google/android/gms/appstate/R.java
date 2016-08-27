@@ -1746,19 +1746,19 @@ containing a value of this type.
         public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0c0006;
     }
     public static final class color {
-        public static int abc_background_cache_hint_selector_material_dark=0x7f060052;
-        public static int abc_background_cache_hint_selector_material_light=0x7f060053;
+        public static int abc_background_cache_hint_selector_material_dark=0x7f060058;
+        public static int abc_background_cache_hint_selector_material_light=0x7f060059;
         public static int abc_input_method_navigation_guard=0x7f060017;
-        public static int abc_primary_text_disable_only_material_dark=0x7f060054;
-        public static int abc_primary_text_disable_only_material_light=0x7f060055;
-        public static int abc_primary_text_material_dark=0x7f060056;
-        public static int abc_primary_text_material_light=0x7f060057;
-        public static int abc_search_url_text=0x7f060058;
+        public static int abc_primary_text_disable_only_material_dark=0x7f06005a;
+        public static int abc_primary_text_disable_only_material_light=0x7f06005b;
+        public static int abc_primary_text_material_dark=0x7f06005c;
+        public static int abc_primary_text_material_light=0x7f06005d;
+        public static int abc_search_url_text=0x7f06005e;
         public static int abc_search_url_text_normal=0x7f060018;
         public static int abc_search_url_text_pressed=0x7f060019;
         public static int abc_search_url_text_selected=0x7f06001a;
-        public static int abc_secondary_text_material_dark=0x7f060059;
-        public static int abc_secondary_text_material_light=0x7f06005a;
+        public static int abc_secondary_text_material_dark=0x7f06005f;
+        public static int abc_secondary_text_material_light=0x7f060060;
         public static int accent_material_dark=0x7f06001b;
         public static int accent_material_light=0x7f06001c;
         public static int background_floating_material_dark=0x7f06001d;
@@ -1789,8 +1789,8 @@ containing a value of this type.
         public static int common_signin_btn_light_text_disabled=0x7f060013;
         public static int common_signin_btn_light_text_focused=0x7f060014;
         public static int common_signin_btn_light_text_pressed=0x7f060012;
-        public static int common_signin_btn_text_dark=0x7f06005b;
-        public static int common_signin_btn_text_light=0x7f06005c;
+        public static int common_signin_btn_text_dark=0x7f060061;
+        public static int common_signin_btn_text_light=0x7f060062;
         public static int dark_background=0x7f06004e;
         public static int darker_background=0x7f06004f;
         public static int dim_foreground_disabled_material_dark=0x7f060029;
@@ -1798,11 +1798,15 @@ containing a value of this type.
         public static int dim_foreground_material_dark=0x7f06002b;
         public static int dim_foreground_material_light=0x7f06002c;
         public static int divider=0x7f060050;
+        public static int feed_bg=0x7f060053;
+        public static int feed_item_bg=0x7f060054;
+        public static int feed_item_border=0x7f060055;
         public static int highlighted_text_material_dark=0x7f06002d;
         public static int highlighted_text_material_light=0x7f06002e;
         public static int hint_foreground_material_dark=0x7f06002f;
         public static int hint_foreground_material_light=0x7f060030;
         public static int light_blue=0x7f06004a;
+        public static int link=0x7f060056;
         public static int link_text_material_dark=0x7f060031;
         public static int link_text_material_light=0x7f060032;
         public static int material_blue_grey_800=0x7f060033;
@@ -1826,10 +1830,11 @@ containing a value of this type.
         public static int secondary_text_disabled_material_light=0x7f060045;
         public static int switch_thumb_disabled_material_dark=0x7f060046;
         public static int switch_thumb_disabled_material_light=0x7f060047;
-        public static int switch_thumb_material_dark=0x7f06005d;
-        public static int switch_thumb_material_light=0x7f06005e;
+        public static int switch_thumb_material_dark=0x7f060063;
+        public static int switch_thumb_material_light=0x7f060064;
         public static int switch_thumb_normal_material_dark=0x7f060048;
         public static int switch_thumb_normal_material_light=0x7f060049;
+        public static int timestamp=0x7f060057;
         public static int wallet_bright_foreground_disabled_holo_light=0x7f060005;
         /** 
          Wallet colors to support consistent Wallet fragment holo dark UI in client application
@@ -1848,8 +1853,9 @@ containing a value of this type.
         public static int wallet_hint_foreground_holo_light=0x7f060007;
         public static int wallet_holo_blue_light=0x7f06000b;
         public static int wallet_link_text_light=0x7f06000c;
-        public static int wallet_primary_text_holo_light=0x7f06005f;
-        public static int wallet_secondary_text_holo_dark=0x7f060060;
+        public static int wallet_primary_text_holo_light=0x7f060065;
+        public static int wallet_secondary_text_holo_dark=0x7f060066;
+        public static int white=0x7f060052;
     }
     public static final class dimen {
         public static int abc_action_bar_content_inset_material=0x7f0b000d;
@@ -1912,12 +1918,27 @@ containing a value of this type.
         public static int abc_text_size_subtitle_material_toolbar=0x7f0b0005;
         public static int abc_text_size_title_material=0x7f0b0040;
         public static int abc_text_size_title_material_toolbar=0x7f0b0006;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static int activity_horizontal_margin=0x7f0b0046;
+        public static int activity_vertical_margin=0x7f0b0047;
         public static int dialog_fixed_height_major=0x7f0b0009;
         public static int dialog_fixed_height_minor=0x7f0b000a;
         public static int dialog_fixed_width_major=0x7f0b000b;
         public static int dialog_fixed_width_minor=0x7f0b000c;
         public static int disabled_alpha_material_dark=0x7f0b0041;
         public static int disabled_alpha_material_light=0x7f0b0042;
+        public static int feed_item_border_width=0x7f0b0052;
+        public static int feed_item_corner_radius=0x7f0b0051;
+        public static int feed_item_margin=0x7f0b0048;
+        public static int feed_item_padding_left_right=0x7f0b004a;
+        public static int feed_item_padding_top_bottom=0x7f0b0049;
+        public static int feed_item_profile_info_padd=0x7f0b004c;
+        public static int feed_item_profile_name=0x7f0b004d;
+        public static int feed_item_profile_pic=0x7f0b004b;
+        public static int feed_item_status_pad_left_right=0x7f0b004f;
+        public static int feed_item_status_pad_top=0x7f0b0050;
+        public static int feed_item_timestamp=0x7f0b004e;
         public static int mr_media_route_controller_art_max_height=0x7f0b0000;
         public static int notification_large_icon_height=0x7f0b0043;
         public static int notification_large_icon_width=0x7f0b0044;
@@ -2062,7 +2083,8 @@ containing a value of this type.
         public static int powered_by_google_light=0x7f020086;
     }
     public static final class id {
-        public static int action0=0x7f09007f;
+        public static int NewsFeedListView=0x7f09007f;
+        public static int action0=0x7f090080;
         public static int action_bar=0x7f090057;
         public static int action_bar_activity_content=0x7f090001;
         public static int action_bar_container=0x7f090056;
@@ -2071,7 +2093,7 @@ containing a value of this type.
         public static int action_bar_subtitle=0x7f09003b;
         public static int action_bar_title=0x7f09003a;
         public static int action_context_bar=0x7f090058;
-        public static int action_divider=0x7f090083;
+        public static int action_divider=0x7f090084;
         public static int action_menu_divider=0x7f090003;
         public static int action_menu_presenter=0x7f090004;
         public static int action_mode_bar=0x7f090054;
@@ -2094,10 +2116,10 @@ containing a value of this type.
         public static int buyButton=0x7f090010;
         public static int buy_now=0x7f090015;
         public static int buy_with_google=0x7f090016;
-        public static int cancel_action=0x7f090080;
+        public static int cancel_action=0x7f090081;
         public static int cast_notification_id=0x7f090000;
         public static int checkbox=0x7f09004f;
-        public static int chronometer=0x7f090086;
+        public static int chronometer=0x7f090087;
         public static int classic=0x7f090018;
         public static int collapseActionView=0x7f09002f;
         public static int contentPanel=0x7f090048;
@@ -2113,7 +2135,7 @@ containing a value of this type.
         public static int dropdown=0x7f090034;
         public static int edit_query=0x7f090059;
         public static int end=0x7f09002c;
-        public static int end_padder=0x7f09008b;
+        public static int end_padder=0x7f09008c;
         public static int expand_activities_button=0x7f09003e;
         public static int expanded_menu=0x7f09004e;
         public static int grayscale=0x7f090019;
@@ -2125,13 +2147,13 @@ containing a value of this type.
         public static int icon=0x7f090042;
         public static int ifRoom=0x7f090030;
         public static int image=0x7f09003f;
-        public static int info=0x7f09008a;
-        public static int line1=0x7f090084;
-        public static int line3=0x7f090088;
+        public static int info=0x7f09008b;
+        public static int line1=0x7f090085;
+        public static int line3=0x7f090089;
         public static int listMode=0x7f090023;
         public static int list_item=0x7f090041;
         public static int match_parent=0x7f090012;
-        public static int media_actions=0x7f090082;
+        public static int media_actions=0x7f090083;
         public static int media_route_control_frame=0x7f090074;
         public static int media_route_list=0x7f090070;
         public static int media_route_volume_layout=0x7f09007a;
@@ -2176,7 +2198,7 @@ containing a value of this type.
         public static int src_atop=0x7f090037;
         public static int src_in=0x7f090038;
         public static int src_over=0x7f090039;
-        public static int status_bar_latest_event_content=0x7f090081;
+        public static int status_bar_latest_event_content=0x7f090082;
         public static int stop=0x7f09007e;
         public static int strict_sandbox=0x7f09000e;
         public static int submit_area=0x7f090062;
@@ -2184,15 +2206,15 @@ containing a value of this type.
         public static int tabMode=0x7f090024;
         public static int terrain=0x7f090020;
         public static int test=0x7f09000f;
-        public static int text=0x7f090089;
-        public static int text2=0x7f090087;
+        public static int text=0x7f09008a;
+        public static int text2=0x7f090088;
         public static int textAppName=0x7f09006d;
         public static int textLogoA=0x7f09006c;
         public static int textSpacerNoButtons=0x7f09004a;
         public static int textUserDetails=0x7f09006f;
         public static int textWelcomeUser=0x7f090067;
         public static int text_wrapper=0x7f090078;
-        public static int time=0x7f090085;
+        public static int time=0x7f090086;
         public static int title=0x7f090043;
         public static int title_bar=0x7f090071;
         public static int title_template=0x7f090046;
@@ -2242,18 +2264,19 @@ containing a value of this type.
         public static int mr_media_route_chooser_dialog=0x7f03001b;
         public static int mr_media_route_controller_material_dialog_b=0x7f03001c;
         public static int mr_media_route_list_item=0x7f03001d;
-        public static int notification_media_action=0x7f03001e;
-        public static int notification_media_cancel_action=0x7f03001f;
-        public static int notification_template_big_media=0x7f030020;
-        public static int notification_template_big_media_narrow=0x7f030021;
-        public static int notification_template_lines=0x7f030022;
-        public static int notification_template_media=0x7f030023;
-        public static int notification_template_part_chronometer=0x7f030024;
-        public static int notification_template_part_time=0x7f030025;
-        public static int select_dialog_item_material=0x7f030026;
-        public static int select_dialog_multichoice_material=0x7f030027;
-        public static int select_dialog_singlechoice_material=0x7f030028;
-        public static int support_simple_spinner_dropdown_item=0x7f030029;
+        public static int newsfeedlayout=0x7f03001e;
+        public static int notification_media_action=0x7f03001f;
+        public static int notification_media_cancel_action=0x7f030020;
+        public static int notification_template_big_media=0x7f030021;
+        public static int notification_template_big_media_narrow=0x7f030022;
+        public static int notification_template_lines=0x7f030023;
+        public static int notification_template_media=0x7f030024;
+        public static int notification_template_part_chronometer=0x7f030025;
+        public static int notification_template_part_time=0x7f030026;
+        public static int select_dialog_item_material=0x7f030027;
+        public static int select_dialog_multichoice_material=0x7f030028;
+        public static int select_dialog_singlechoice_material=0x7f030029;
+        public static int support_simple_spinner_dropdown_item=0x7f03002a;
     }
     public static final class raw {
         public static int gtm_analytics=0x7f050000;

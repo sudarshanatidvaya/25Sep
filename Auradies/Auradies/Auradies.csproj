@@ -170,6 +170,8 @@
     <Compile Include="GridImageAdapter.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="NewsFeed.cs" />
+    <Compile Include="NewsFeedActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserProfile.cs" />
@@ -180,6 +182,15 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\HomeLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NewsFeedLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Feed.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListRow.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -236,6 +247,9 @@
     <AndroidResource Include="Resources\drawable\eventsIcon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\dimens.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
