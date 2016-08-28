@@ -3,33 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_ripple_blue"
-        android:orientation="vertical">
-    
-        <LinearLayout
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/userImage" />
+        <TextView
+            android:text="Welcome!"
+            android:id="@+id/textWelcomeUser"
+            android:textColor="#E9AB17"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:layout_height="120dp">
-            <ImageView
-                android:src="@android:drawable/ic_menu_gallery"
-                android:layout_width="50dp"
-                android:layout_height="100dp"
-                android:layout_gravity="left"
-                android:layout_marginLeft="10dp"
-                android:id="@+id/userImage" />
-            <TextView
-                android:text="Welcome!"
-                android:id="@+id/textWelcomeUser"
-                android:textColor="#E9AB17"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="10dp"
-                android:layout_height="100dp"
-                android:layout_width="match_parent"
-                android:layout_marginRight="0.0dp"
-                android:paddingTop="40dp" />
-        </LinearLayout>
-  <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_marginRight="0.0dp"
+            android:paddingTop="40dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,9 +38,9 @@
                 android:id="@+id/btnNews"
                 android:layout_gravity="left"
                 android:adjustViewBounds="true"
-                android:scaleType="fitCenter" 
+                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp" />
             <ImageButton
                 android:src="@drawable/galleryIcon"
                 android:id="@+id/btnGallery"
@@ -66,8 +65,7 @@
                 android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="150dp" />
-
-            <!--<Button
+        <!--<Button
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:drawableLeft="@drawable/newsIcon"
@@ -76,7 +74,6 @@
                 android:paddingTop="32dp"
                 android:drawablePadding="-15dp"
                 android:text="NEWS"/>-->
-              
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -66,11 +66,72 @@ namespace Auradies
                 //gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
                 //    Toast.MakeText(this, args.Position.ToString(), ToastLength.Short).Show();
                 //};
+
+
+                _btnNews.Click += _btnNews_Click;
             }
             catch (Exception ex)
             {
 
             }
+        }
+
+        private void _btnNews_Click(object sender, EventArgs e)
+        {
+            List<NewsFeed> newsFeeds = TestReturnNewsFeed(_loggedInUser);
+
+            Intent intent = new Intent(this, typeof(NewsFeedActivity));
+            intent.PutExtra("AllNewsFeeds", JsonConvert.SerializeObject(newsFeeds));
+
+            this.StartActivity(intent);
+            //this.OverridePendingTransition(Android.Resource.Animation.SlideInLeft, Android.Resource.Animation.SlideOutRight);
+        }
+
+        private List<NewsFeed> TestReturnNewsFeed(UserProfile loggedInUser)
+        {
+            NewsFeed newsFeed01 = new NewsFeed("TIME", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed02 = new NewsFeed("TIME2", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed03 = new NewsFeed("TIME3", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed04 = new NewsFeed("TIME4", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed05 = new NewsFeed("TIME5", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed06 = new NewsFeed("TIME6", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed07 = new NewsFeed("TIME7", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+
+            NewsFeed newsFeed08 = new NewsFeed("TIME8", "http://api.androidhive.info/feed/img/time.png", loggedInUser.UserName, loggedInUser.ProfilePicID,
+                DateTime.Now.ToString(), "30 years of Cirque du Soleil's best photos2222", "http://ti.me/1qW8MLB", "hhttp://api.androidhive.info/feed/img/time_best.jpg");
+
+            List<NewsFeed> newsFeeds = new List<NewsFeed>();
+            newsFeeds.Add(newsFeed01);
+            newsFeeds.Add(newsFeed02);
+            newsFeeds.Add(newsFeed03);
+            newsFeeds.Add(newsFeed04);
+            newsFeeds.Add(newsFeed05);
+            newsFeeds.Add(newsFeed06);
+            newsFeeds.Add(newsFeed07);
+            newsFeeds.Add(newsFeed08);
+
+            return newsFeeds;
+
         }
 
         public override void OnBackPressed()

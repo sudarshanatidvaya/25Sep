@@ -14,6 +14,10 @@ Auradies.NewsFeedActivity, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeed
 Auradies.NewsFeedActivity, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedActivity
 Auradies.NewsFeedActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedActivity
 auradies.NewsFeedActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedActivity
+Auradies.NewsFeedAdapter, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedAdapter
+Auradies.NewsFeedAdapter, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedAdapter
+Auradies.NewsFeedAdapter;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedAdapter
+auradies.NewsFeedAdapter;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedAdapter
 Square.OkHttp.Call/ActionCallback, Square.OkHttp;com.squareup.okhttp.Call_ActionCallback
 Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null;com.squareup.okhttp.Call_ActionCallback
 Square.OkHttp.Call.ActionCallback;com.squareup.okhttp.Call_ActionCallback
