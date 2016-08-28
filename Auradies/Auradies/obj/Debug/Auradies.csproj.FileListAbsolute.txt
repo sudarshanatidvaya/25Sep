@@ -144,5 +144,7 @@ E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Runtime.Serializ
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Xml.dll.mdb
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\layout\contactrow.xml
+E:\Code\25Sep\Auradies\Auradies\obj\Debug\res\layout\contactlayout.xml
 E:\Code\25Sep\Auradies\Auradies\obj\Debug\Auradies.dll.mdb
 E:\Code\25Sep\Auradies\Auradies\bin\Debug\Auradies.dll.mdb

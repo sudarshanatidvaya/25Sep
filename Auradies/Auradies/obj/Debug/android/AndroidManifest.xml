@@ -10,6 +10,7 @@
   <application android:label="Auradies" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="NewsFeedActivity" android:screenOrientation="portrait" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.ContactActivity" />
     <activity android:label="HomeActivity" android:screenOrientation="portrait" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.HomeActivity" />
     <activity android:icon="@drawable/icon" android:label="Auradies" android:screenOrientation="portrait" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.MainActivity">
       <intent-filter>
