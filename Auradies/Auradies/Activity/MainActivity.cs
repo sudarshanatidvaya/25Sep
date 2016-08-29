@@ -328,5 +328,10 @@ namespace Auradies
                 }
             }
         }
+
+        public override void OnBackPressed()
+        {
+            Process.KillProcess(Process.MyPid());
+        }
     }
 }
