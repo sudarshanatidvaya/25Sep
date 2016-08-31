@@ -162,13 +162,9 @@ namespace Auradies
         {
             if (doubleBackToExitPressedOnce)
             {
-                //base.OnBackPressed();
-                //Java.Lang.JavaSystem.Exit(0);
-                this.Finish();
-                //Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
+                this.FinishAffinity();
                 return;
             }
-
 
             this.doubleBackToExitPressedOnce = true;
             Toast.MakeText(this, "Please click BACK again to exit", ToastLength.Short).Show();
@@ -178,16 +174,13 @@ namespace Auradies
                 doubleBackToExitPressedOnce = false;
             }, 2000);
 
-
-            //this.doubleBackToExitPressedOnce = true;
-            //Toast.MakeText(this, "Please click BACK again to exit", ToastLength.Short).Show();
-            //(new Handler() + postDelayed(new Runnable(), 2000));
         }
 
-        public override void Finish()
+        public override void FinishAffinity()
         {
+            base.FinishAffinity();
             Process.KillProcess(Process.MyPid());
+            
         }
-
     }
 }

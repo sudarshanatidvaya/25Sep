@@ -180,6 +180,7 @@
     <Compile Include="Activity\ContactActivity.cs" />
     <Compile Include="Activity\HomeActivity.cs" />
     <Compile Include="Activity\MainActivity.cs" />
+    <Compile Include="Activity\NewsFeedDetailActivity.cs" />
     <Compile Include="Adapter\ContactAdapter.cs" />
     <Compile Include="Entity\Contact.cs" />
     <Compile Include="Entity\NewsFeed.cs" />
@@ -207,6 +208,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ContactLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NewsFeedDetailLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

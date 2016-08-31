@@ -16,6 +16,7 @@ public class MainActivity
 			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
 			"n_onStart:()V:GetOnStartHandler\n" +
 			"n_onStop:()V:GetOnStopHandler\n" +
+			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"n_onConnected:(Landroid/os/Bundle;)V:GetOnConnected_Landroid_os_Bundle_Handler:Android.Gms.Common.Apis.IGoogleApiClientConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
 			"n_onConnectionSuspended:(I)V:GetOnConnectionSuspended_IHandler:Android.Gms.Common.Apis.IGoogleApiClientConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
 			"n_onConnectionFailed:(Lcom/google/android/gms/common/ConnectionResult;)V:GetOnConnectionFailed_Lcom_google_android_gms_common_ConnectionResult_Handler:Android.Gms.Common.Apis.IGoogleApiClientOnConnectionFailedListenerInvoker, Xamarin.GooglePlayServices.Base\n" +
@@ -62,6 +63,14 @@ public class MainActivity
 	}
 
 	private native void n_onStop ();
+
+
+	public void onBackPressed ()
+	{
+		n_onBackPressed ();
+	}
+
+	private native void n_onBackPressed ();
 
 
 	public void onConnected (android.os.Bundle p0)

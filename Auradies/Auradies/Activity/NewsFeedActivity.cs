@@ -19,6 +19,7 @@ namespace Auradies
     {
 
         private ListView _listView;
+        List<NewsFeed> newsFeeds = new List<NewsFeed>();
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,13 +29,26 @@ namespace Auradies
 
             _listView = FindViewById<ListView>(Resource.Id.NewsFeedListView);
 
-            List<NewsFeed> newsFeeds = new List<NewsFeed>();
 
             newsFeeds = JsonConvert.DeserializeObject<List<NewsFeed>>(Intent.GetStringExtra("AllNewsFeeds"));
 
             NewsFeedAdapter newsFeedAdapter = new NewsFeedAdapter(this, newsFeeds);
 
             _listView.Adapter = newsFeedAdapter;
+
+            _listView.ItemClick += _listView_ItemClick;
+        }
+
+        private void _listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            NewsFeed newsFeed = newsFeeds[e.Position];
+
+
+            Intent intent = new Intent(this, typeof(NewsFeedDetailActivity));
+            intent.PutExtra("SelectedNewsFeed", JsonConvert.SerializeObject(newsFeed));
+
+            this.StartActivity(intent);
+
         }
     }
 }

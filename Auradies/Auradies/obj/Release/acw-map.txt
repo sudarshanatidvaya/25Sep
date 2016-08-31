@@ -10,6 +10,10 @@ Auradies.MainActivity, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.MainActivity
 Auradies.MainActivity, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.MainActivity
 Auradies.MainActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.MainActivity
 auradies.MainActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.MainActivity
+Auradies.NewsFeedDetailActivity, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedDetailActivity
+Auradies.NewsFeedDetailActivity, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedDetailActivity
+Auradies.NewsFeedDetailActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedDetailActivity
+auradies.NewsFeedDetailActivity;md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedDetailActivity
 Auradies.ContactAdapter, Auradies;md55ad0aab94bf4a6c5bb1151001c94d7ad.ContactAdapter
 Auradies.ContactAdapter, Auradies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ad0aab94bf4a6c5bb1151001c94d7ad.ContactAdapter
 Auradies.ContactAdapter;md55ad0aab94bf4a6c5bb1151001c94d7ad.ContactAdapter
