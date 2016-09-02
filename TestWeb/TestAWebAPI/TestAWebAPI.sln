@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAWebAPI", "TestAWebAPI\TestAWebAPI.csproj", "{CC45BAE0-9F35-4011-9B99-D0B95FC762E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC45BAE0-9F35-4011-9B99-D0B95FC762E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC45BAE0-9F35-4011-9B99-D0B95FC762E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC45BAE0-9F35-4011-9B99-D0B95FC762E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC45BAE0-9F35-4011-9B99-D0B95FC762E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -31,7 +31,10 @@ E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\Java.Interop.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\Mono.Android.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\mscorlib.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.Core.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.Data.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.Xml.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.Runtime.Serialization.dll
 E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.ServiceModel.Internals.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\System.Numerics.dll
+E:\Code\25Sep\Auradies\Auradies\obj\Release\android\assets\Mono.Data.Tds.dll

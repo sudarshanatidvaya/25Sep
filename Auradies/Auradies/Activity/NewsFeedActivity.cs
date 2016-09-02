@@ -20,6 +20,7 @@ namespace Auradies
 
         private ListView _listView;
         List<NewsFeed> newsFeeds = new List<NewsFeed>();
+        private UserProfile _loggedInUser;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -29,8 +30,10 @@ namespace Auradies
 
             _listView = FindViewById<ListView>(Resource.Id.NewsFeedListView);
 
+            _loggedInUser = new UserProfile();
 
             newsFeeds = JsonConvert.DeserializeObject<List<NewsFeed>>(Intent.GetStringExtra("AllNewsFeeds"));
+            _loggedInUser = JsonConvert.DeserializeObject<UserProfile>(Intent.GetStringExtra("loggedInUser"));
 
             NewsFeedAdapter newsFeedAdapter = new NewsFeedAdapter(this, newsFeeds);
 
@@ -46,6 +49,7 @@ namespace Auradies
 
             Intent intent = new Intent(this, typeof(NewsFeedDetailActivity));
             intent.PutExtra("SelectedNewsFeed", JsonConvert.SerializeObject(newsFeed));
+            intent.PutExtra("loggedInUser", JsonConvert.SerializeObject(_loggedInUser));
 
             this.StartActivity(intent);
 

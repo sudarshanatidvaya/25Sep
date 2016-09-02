@@ -14,6 +14,7 @@ namespace Auradies
 {
     public class NewsFeed
     {
+        int _id;
         string _userProfileName;
         string _loggedInUserProfileName;
         string _userProfilePicID;
@@ -22,13 +23,15 @@ namespace Auradies
         string _statusMessage;
         string _linkText;
         string _newsImage;
+        bool _isActive;
 
 
         public NewsFeed() { }
 
-        public NewsFeed(string userProfileName, string userProfilePicID, string loggedInUserProfileName, string loggedInUserProfilePicID,
-            string timeStamp,string statusMessage, string linkText, string newsImage)
+        public NewsFeed(int id, string userProfileName, string userProfilePicID, string loggedInUserProfileName, string loggedInUserProfilePicID,
+            string timeStamp, string statusMessage, string linkText, string newsImage, bool isActive)
         {
+            _id = id;
             _userProfileName = userProfileName;
             _loggedInUserProfileName = loggedInUserProfileName;
             _userProfilePicID = userProfilePicID;
@@ -37,6 +40,13 @@ namespace Auradies
             _statusMessage = statusMessage;
             _linkText = linkText;
             _newsImage = newsImage;
+            _isActive = isActive;
+        }
+
+        public int ID
+        {
+            get { return _id; }
+            set { _id = value; }
         }
 
         public string UserProfileName
@@ -87,5 +97,10 @@ namespace Auradies
             set { _newsImage = value; }
         }
 
+        public bool IsActive
+        {
+            get { return _isActive; }
+            set { _isActive = value; }
+        }
     }
 }

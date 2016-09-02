@@ -1,0 +1,147 @@
+supriyamise@gmail.com
+$supriya21
+
+
+
+	 
+ 
+AWS
+ 
+ 
+Services
+ 
+ 
+Edit
+ 
+supriya
+ 
+ 
+Oregon
+ 
+ 
+Support
+ 
+
+Federated Identities
+AuradiesPool 
+Edit identity pool
+Identity poolDashboardSample codeIdentity browser
+							Getting Started with Amazon Cognito
+							Platform Xamarin 
+							Download the AWS SDK
+							 Download the AWS SDK for Xamarin
+							Get AWS Credentials
+							// Initialize the Amazon Cognito credentials providerCognitoAWSCredentials credentials = new CognitoAWSCredentials (    "us-west-2:c6d26e4f-8ee8-471b-83b2-f3fa1444be8b", // Identity Pool ID    RegionEndpoint.USWest2 // Region);
+							Store User Data
+							// Initialize the Cognito Sync clientCognitoSyncManager syncManager = new CognitoSyncManager (    credentials,    new AmazonCognitoSyncConfig {        RegionEndpoint = RegionEndpoint.USWest2 // Region    });
+							// Create a record in a dataset and synchronize with the serverDataset dataset = syncManager.OpenOrCreateDataset ("myDataset");dataset.OnSyncSuccess += SyncSuccessCallback;dataset.Put("myKey", "myValue");dataset.SynchronizeAsync();
+							void SyncSuccessCallback(object sender, SyncSuccessEventArgs e) {    // Your handler code here}
+							Learn More
+							} AWS SDK for Xamarin Developer Guide
+							Go to Dashboard
+Feedback
+English
+Terms of UsePrivacy Policy© 2008 - 2016, Amazon Internet Services Private Ltd. or its affiliates. All rights reserved.
+
+From <https://us-west-2.console.aws.amazon.com/cognito/code/?region=us-west-2&pool=us-west-2:c6d26e4f-8ee8-471b-83b2-f3fa1444be8b&response=%7B%22authRole%22%3A%22arn%3Aaws%3Aiam%3A%3A586989778368%3Arole%2FCognito_AuradiesPoolAuth_Role%22%2C%22unauthRole%22%3A%22arn%3Aaws%3Aiam%3A%3A586989778368%3Arole%2FCognito_AuradiesPoolUnauth_Role%22%7D> 
+
+Roles, permission for S3 bucket -->  auradiesnews
+
+policygen-Cognito_AuradiesPoolUnauth_Role-201609022332
+
+
+Policy document:
+
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1472839298000",
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::auradiesnews/*"
+            ]
+        }
+    ]
+}
+
+
+Identity pool ID 
+us-west-2:c6d26e4f-8ee8-471b-83b2-f3fa1444be8b
+
+asd
+
+
+
+
+
+
+
+
+
+
+08-02-2015 05:17 PM - Screen Clipping
+
+
+
+
+
+as
+05-04-2015 10:29 AM - Screen Clipping
+
+
+
+
+supriyamise
+Mise@aurad7
+
+Mail
+SupriyaMise@atidvaya.com
+Mise@aurad7
+supriya@aurad90
+
+PrashantGowda@atidvaya.com
+prashanth@gowda90
+
+XAMARIN
+Sudarshan_mise@yahoo.com
+Atidvaya@9980
+
+supriyamise@gmail.com
+$supriya21
+
+4C:26:48:FA:C1:D7:AE:4E:79:C6:12:8C:AD:29:CA:E0:F2:4F:52:A4
+
+com.auradies
+
+https://atidvaya.com:2096/
+
+sudarshanmise@atidvaya.com
+sudarshan@mise7
+
+{"installed":{"client_id":"128216893043-o4dhmdhht1gp4fa1s9o5154k31c957rk.apps.googleusercontent.com","project_id":"auradiesgplus","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://accounts.google.com/o/oauth2/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}
+
+1
+
+Blog, News, Events, Gallery
+
+http://res.cloudinary.com/auradiesatidvaya/image/upload/v1472553657/Image02.png
+
+Jatra,Ratha	https://scontent.fblr1-2.fna.fbcdn.net/t31.0-8/886617_176227745858632_1517734535_o.jpg
+GMAP	https://scontent.fblr1-2.fna.fbcdn.net/v/t1.0-9/12003294_557267941087942_2909392798178253509_n.jpg?oh=71cc6d2c48ad0d9116d7c1c19de3f5b7&oe=5845A317
+	
+
+
+
+
+
+https://drive.google.com/open?id=0B1GKMaSuJGXJR3N0d0xkV2tTQUk
+
+Testimage	https://lh3.googleusercontent.com/uTJmTwwQQcWoHurDL7UlzWmR802p812A4s2byUPmb1e8SxLFGhnyuNB33X77E0v1oeugTO_DBrIPRxqaEzWfVoVb3w0pX1Gio9gvoEYWtTxRBHUgGGNkuJtNvTGnfP_3wmenXix87593rUs-uvBb_3BRuPk69umnHpiFSw3Q0gUEF-oWW9b1Tq0RR7SDGw1ojhiAx1ZTS0-F-_KXQax4a-HMDs8JWeFRHsT4i9xLNNjZjg2XFgYoVennxS8ntzeR1je-gQQ932TPdDXxgdZar52X4o-4B6vZLDoLUtrrHxe6JrTsl3xGiHOaoYg6Y72URoYeMYjqjDwpWr1aVlWw13udmfoKcEAxKIWO5WkmDFU5ontvCdvo-HkI9KUifzNM4eB1wG80HCLgDGMey0H5LNFoPt6pIMAu5C4XgZCfWkejeO4F-idXPQdILMaTEZNQOlPL6KUR-wDtnPA2iw8x1aqevXYmvlrw-fBycUB1L-KraiYnaF2SYq4I38d5VHip2I4-DQKyA8MvMQ6paw1zY0XsgR-oeQSUXncwM8_PPJcU_gqSVtZiYhLzh8hLPKt_DF7Q_NmHpYNZKzLlDbdouwFW62m81pkLf86l1EZtMXn6d7em=w201-h202-no
+
+a

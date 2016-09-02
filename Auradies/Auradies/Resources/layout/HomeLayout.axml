@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_ripple_blue"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +39,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="100dp" />
             <ImageButton
                 android:src="@drawable/galleryIcon"
                 android:id="@+id/btnGallery"
@@ -48,7 +47,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="100dp" />
             <ImageButton
                 android:src="@drawable/eventsIcon"
                 android:id="@+id/btnEvents"
@@ -56,7 +55,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="100dp" />
             <ImageButton
                 android:src="@drawable/contactsIcon"
                 android:id="@+id/btnContacts"
@@ -64,7 +63,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="100dp" />
         <!--<Button
                 android:layout_width="match_parent"
                 android:layout_height="150dp"

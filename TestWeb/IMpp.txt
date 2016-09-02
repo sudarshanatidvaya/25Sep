@@ -1,0 +1,39 @@
+launch-wizard-1
+
+launch-wizard-2
+
+Access Key ID:
+AKIAIVVP2N5VYUEVR24Q
+Secret Access Key:
+5p0OxYH85j0DBn4zAbj0eaOP33bN4F9zb2ixa0GN
+
+RDS
+
+DB Instance Identifier: supriya
+username:		sa
+pwd:			supriya21
+
+
+
+Connection Information
+
+Security Group Rules:
+Security Group			Type				Rule
+default				Security Group - Inbound	sg-19f61a60
+
+
+
+IAM Role: AllRoles
+
+
+
+Role 						NameAllRoles 					Edit Role Name
+Role ARN 					arn:aws:iam::586989778368:role/AllRoles
+Trusted Entities 				The identity provider(s) ec2.amazonaws.com
+Policies 					arn:aws:iam::aws:policy/PowerUserAccess 	Change Policies
+
+
+
+
+
+
