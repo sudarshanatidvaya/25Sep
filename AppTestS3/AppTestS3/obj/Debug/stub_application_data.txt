@@ -1,0 +1,2 @@
+android.app.Application
+AppTestS3.AppTestS3

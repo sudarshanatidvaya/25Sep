@@ -1486,6 +1486,10 @@ namespace Auradies
 			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType = global::Auradies.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType;
 			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor = global::Auradies.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor;
 			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance = global::Auradies.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance;
+			global::PCLCrypto.Resource.String.ApplicationName = global::Auradies.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::Auradies.Resource.String.Hello;
+			global::PCLStorage.Resource.String.ApplicationName = global::Auradies.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::Auradies.Resource.String.Hello;
 		}
 		
 		public partial class Animation
@@ -4055,14 +4059,14 @@ namespace Auradies
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f07004a
-			public const int ApplicationName = 2131165258;
+			// aapt resource value: 0x7f070049
+			public const int ApplicationName = 2131165257;
 			
 			// aapt resource value: 0x7f07004b
 			public const int ConfigUrl = 2131165259;
 			
-			// aapt resource value: 0x7f070049
-			public const int Hello = 2131165257;
+			// aapt resource value: 0x7f070048
+			public const int Hello = 2131165256;
 			
 			// aapt resource value: 0x7f070036
 			public const int abc_action_bar_home_description = 2131165238;
@@ -4238,8 +4242,8 @@ namespace Auradies
 			// aapt resource value: 0x7f070029
 			public const int decline = 2131165225;
 			
-			// aapt resource value: 0x7f070048
-			public const int library_name = 2131165256;
+			// aapt resource value: 0x7f07004a
+			public const int library_name = 2131165258;
 			
 			// aapt resource value: 0x7f07002c
 			public const int mr_media_route_button_content_description = 2131165228;

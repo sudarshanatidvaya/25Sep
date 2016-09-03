@@ -2,13 +2,31 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\AWSSDK.Core\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\GooglePlayServicesLib\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLCrypto\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLStorage\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.CurrentActivity\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Media\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Permissions\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\AWSSDK.Core\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\GooglePlayServicesLib\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLCrypto\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLStorage\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.CurrentActivity\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Media\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Permissions\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\AWSSDK.Core.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\GooglePlayServicesLib.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLCrypto.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\PCLStorage.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.CurrentActivity.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Media.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Code\25Sep\Auradies\Auradies\obj\Release\__library_projects__\Plugin.Permissions.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
