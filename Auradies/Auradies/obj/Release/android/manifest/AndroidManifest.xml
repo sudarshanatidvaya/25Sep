@@ -2,11 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.auradies" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.GET_ACCOUNTS" />
   <uses-permission android:name="android.permission.USE_CREDENTIALS" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Auradies" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+  <application android:label="Auradies" android:icon="@drawable/icon" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.MainApplication" android:allowBackup="true">
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <activity android:label="NewsFeedActivity" android:screenOrientation="portrait" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.ContactActivity" />
@@ -19,6 +24,8 @@
     </activity>
     <activity android:label="NewsFeedDetailActivity" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedDetailActivity" />
     <activity android:label="NewsFeedActivity" android:screenOrientation="portrait" android:name="md55ad0aab94bf4a6c5bb1151001c94d7ad.NewsFeedActivity" />
+    <receiver android:name="md5343e36a1bb0d551a047a1a24886e23d0.NetworkReachability_NetworkStatusChangeBroadcastReceiver" />
+    <activity android:name="md588a879adf152f547778e5147cb2024ef.MediaPickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.auradies.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

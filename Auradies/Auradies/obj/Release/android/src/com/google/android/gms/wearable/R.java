@@ -2311,9 +2311,9 @@ containing a value of this type.
         public static int gtm_analytics=0x7f050000;
     }
     public static final class string {
-        public static int ApplicationName=0x7f07004a;
+        public static int ApplicationName=0x7f070049;
         public static int ConfigUrl=0x7f07004b;
-        public static int Hello=0x7f070049;
+        public static int Hello=0x7f070048;
         public static int abc_action_bar_home_description=0x7f070036;
         public static int abc_action_bar_home_description_format=0x7f070043;
         public static int abc_action_bar_home_subtitle_description_format=0x7f070044;
@@ -2462,7 +2462,7 @@ containing a value of this type.
         public static int create_calendar_message=0x7f07002b;
         public static int create_calendar_title=0x7f07002a;
         public static int decline=0x7f070029;
-        public static int library_name=0x7f070048;
+        public static int library_name=0x7f07004a;
         public static int mr_media_route_button_content_description=0x7f07002c;
         public static int mr_media_route_chooser_searching=0x7f07002d;
         public static int mr_media_route_chooser_title=0x7f07002e;
