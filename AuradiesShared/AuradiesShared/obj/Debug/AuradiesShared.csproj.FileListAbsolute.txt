@@ -1,0 +1,7 @@
+E:\Code\25Sep\AuradiesShared\AuradiesShared\obj\Debug\AuradiesShared.csprojResolveAssemblyReference.cache
+E:\Code\25Sep\AuradiesShared\AuradiesShared\bin\Debug\AuradiesShared.dll
+E:\Code\25Sep\AuradiesShared\AuradiesShared\bin\Debug\AuradiesShared.pdb
+E:\Code\25Sep\AuradiesShared\AuradiesShared\obj\Debug\AuradiesShared.dll
+E:\Code\25Sep\AuradiesShared\AuradiesShared\obj\Debug\AuradiesShared.pdb
+E:\Code\25Sep\Lib\AuradiesShared.dll
+E:\Code\25Sep\Lib\AuradiesShared.pdb
